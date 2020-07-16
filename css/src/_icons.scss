@@ -1,0 +1,68 @@
+
+
+.icons {
+	padding: 20px;
+	@include clearfix;
+
+	@include respond-to( 768px ) {
+		padding: 20px 10px;
+	}
+
+	a {
+		.icon {
+			background: $grey-light url(../img/bg-plus.png) center center no-repeat;
+
+			&.red { background-color: $red; }
+			&.grey-dark { background-color: $grey-dark; }
+			&.black { background-color: black; }
+
+			padding: 10px;
+			width: 100%;
+			display: block;
+			text-align: center;
+
+			@include respond-to( 450px ) {
+				padding: 20px;
+				width: 48%;
+				margin: 0 1%;
+				float: left;
+
+				&:nth-child(3), &:nth-child(5), &:nth-child(7), &:nth-child(9) {
+					clear: left;
+				}
+			}
+
+			@include respond-to( 800px ) {
+				width: 23%;
+				margin: 0 1%;
+				padding: 30px 20px;
+
+				&:nth-child(3), &:nth-child(7) {
+					clear: none;
+				}
+			}
+		}
+
+		* {
+			opacity: 1;
+			transition: 300ms all ease-in-out;			
+		}
+
+		&:hover * {
+			text-decoration: none;
+			opacity: .9;
+		}
+	
+		img {
+
+		}
+
+		h4 {
+			color: white;
+			font-size: 1em;
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+	}
+}
+
