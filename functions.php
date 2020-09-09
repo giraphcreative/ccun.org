@@ -18,6 +18,10 @@ include( "library/images.php" );
 include( "library/metabox.php" );
 
 
+// include our credit unions functions
+include( "library/cu.php" );
+
+
 // include quote metaboxes/functions
 // include( "library/title.php" );
 include( "library/emergency.php" );
