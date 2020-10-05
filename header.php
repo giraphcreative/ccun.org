@@ -25,7 +25,7 @@
 <![endif]-->
 
 <?php wp_head(); ?>
-<link href="<?php bloginfo( "template_url" ) ?>/css/main.css" rel="stylesheet" type="text/css">
+<link href="<?php bloginfo( "template_url" ) ?>/css/main.css?v=1" rel="stylesheet" type="text/css">
 
 </head>
 <body <?php body_class(); ?>>
@@ -44,10 +44,12 @@
 			</a>
 		</div>
 		
+		<!--
 		<div class="search">
 			<h3>Search For a Credit Union</h3>
 			<?php get_search_form(); ?>
 		</div>
+		-->
 		
 	</div>
 

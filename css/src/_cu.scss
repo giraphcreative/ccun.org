@@ -4,8 +4,10 @@
 	padding-top: 20px;
 
 	.directory-entries {
-		margin-top: 20px;
-		border-top: 1px solid #ddd;
+		&.searched {
+			margin-top: 20px;
+			border-top: 1px solid #ddd;
+		}
 
 		.entry {
 			@include clearfix;
@@ -21,3 +23,23 @@
 	}
 }
 
+
+.home .directory {
+	padding: 40px 0;
+
+	.directory-search {
+		text-align: center;
+
+		label {
+			display: block;
+			text-transform: uppercase;
+			font-size: 1.5em;
+			line-height: 1.4em;
+		}
+
+		input[type=text] {
+			border: 2px solid $grey-light;
+		}
+	}
+
+}

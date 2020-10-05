@@ -23,7 +23,9 @@ get_header();
 				the_content();
 				?>
 				<div class="directory">
-					Search: <input type="text" name="cu-search" class="cu-search" value="" />
+					<div class="directory-search">
+						<label>Search:</label> <input type="text" name="cu-search" class="cu-search" value="" />
+					</div>
 					<div class="directory-entries">
 					<?php 
 					$cus = get_credit_unions();

@@ -15,6 +15,8 @@ jQuery(document).ready(function($){
 		// when the search field is typed into
 		search.on('keyup',function(){
 
+			directory.find('.directory-entries').addClass('searched');
+
 			// store the term (in lowercase)
 			var search_query = $(this).val().toLowerCase();
 
