@@ -58,7 +58,7 @@ function admin_credit_unions() {
 				<td><strong><?php print $cu->cu_name; ?></strong><br>
 					<?php print $cu->cu_address; ?><br>
 					<?php print $cu->cu_city; ?>, <?php print $cu->cu_state; ?> <?php print $cu->cu_zip; ?></td>
-				<td><?php print $cu->cu_zips; ?></td>
+				<!--<td><?php print $cu->cu_zips; ?></td>-->
 				<td><a href="<?php print $cu->cu_website; ?>" target="_blank">Website</a></td>
 			</tr>
 					<?php
