@@ -48,7 +48,7 @@ function admin_credit_unions() {
 		<p>Below is a complete list of all the credit unions currently in the database.</p>
 		<div class="credit-union-listing">
 		<table cellspacing=0 border=0 style="width:100%;">
-			<tr><th>ID</th><th>CU Info</th><th>Applicable Zipcodes</th><th>Website</th></tr>
+			<tr><th>ID</th><th>CU Info</th><!--<th>Applicable Zipcodes</th>--><th>Website</th></tr>
 			<?php
 			if ( !empty( $cus ) ) {
 				foreach ( $cus as $cu ) {
