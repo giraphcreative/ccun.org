@@ -25,7 +25,7 @@
 <![endif]-->
 
 <?php wp_head(); ?>
-<link href="<?php bloginfo( "template_url" ) ?>/css/main.css?v=1" rel="stylesheet" type="text/css">
+<link href="<?php bloginfo( "template_url" ) ?>/css/main.css?v=2" rel="stylesheet" type="text/css">
 
 </head>
 <body <?php body_class(); ?>>
@@ -34,7 +34,7 @@
 
 <div class="container">
 
-<header>
+<header class="group">
 
 	<div class="wrap">
 	
@@ -53,10 +53,12 @@
 		
 	</div>
 
+	<!--
 	<nav role="navigation">
 		<button class="menu-toggle">Show/hide Menu</button>
 		<?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'menu_class' => 'nav-menu' ) ); ?>
 	</nav>
+	-->
 	
 </header>
 

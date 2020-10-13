@@ -13,6 +13,8 @@
 	</section>
 	
 	<footer class="footer">
+		&nbsp;
+		<!--
 		<div class="three-quarter first">
 			<h5>Christian Credit Union Network</h5>
 			<p style="margin-bottom: 10px;">123 Address Street<br>
@@ -22,7 +24,8 @@
 		<div class="quarter">
 			<?php wp_nav_menu( array( 'theme_location' => 'footer', 'menu_class' => 'nav-menu' ) ); ?>
 		</div>
-	</footer><!-- #colophon -->
+		-->
+	</footer>
 
 	<!--
 	<div class="colophon">

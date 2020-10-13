@@ -12,23 +12,12 @@ get_header();
 	
 	<?php the_icon_showcase(); ?>
 	
-	<!--
-	<div class="content-wide home-bottom">
-		<?php
-		if ( have_posts() ) :
-			while ( have_posts() ) : the_post(); 
-				the_content();
-			endwhile;
-		endif;
-		?>
-	</div>
-	-->
 
 	<?php the_boxes(); ?>
 
 	<div class="directory home">
 		<div class="directory-search">
-			<label>Credit Union Search:</label> <input type="text" name="cu-search" class="cu-search" value="" />
+			<label>Enter your zip code here to locate your credit union:</label> <input type="text" name="cu-search" class="cu-search" value="" />
 		</div>
 		<div class="directory-entries">
 		<?php 
@@ -50,6 +39,15 @@ get_header();
 		}
 		?>
 		</div>
+	</div>
+	<div class="content-wide home-bottom">
+		<?php
+		if ( have_posts() ) :
+			while ( have_posts() ) : the_post(); 
+				the_content();
+			endwhile;
+		endif;
+		?>
 	</div>
 
 	<?php the_footer_image(); ?>

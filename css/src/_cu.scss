@@ -13,6 +13,13 @@
 			@include clearfix;
 			border-bottom: 1px solid #ddd;
 
+			@include respond-to( 1024px ) {
+				.two-third {
+					padding-left: 50px;
+					margin-left: 0;
+				}
+			}
+
 			.btn {
 				@include respond-to( 768px ) {
 					float: right;
