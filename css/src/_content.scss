@@ -67,17 +67,6 @@
 			padding: 20px;
 		}
 
-		@include respond-to( 768px ) {
-			padding: 20px 20px 40px;
-
-			p {
-				padding: 0;
-				width: 30%;
-				float: left;
-				margin: 0 1.5%;
-			}
-		}
-
 		@include respond-to( 1024px ) {
 			padding: 30px 40px 50px;
 		}
