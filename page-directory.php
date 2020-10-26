@@ -35,7 +35,8 @@ get_header();
 						<div class="entry" data-zipcodes="<?php print $cu->cu_zips ?>">
 							<div class="two-third">
 								<h4><?php print $cu->cu_name; ?></h4>
-								<?php print $cu->cu_address . "<br>" . $cu->cu_city . ", " . $cu->cu_state . " " . $cu->cu_zip; ?>
+								<?php print $cu->cu_address . "<br>" . $cu->cu_city . ", " . $cu->cu_state . " " . $cu->cu_zip; ?><br>
+								<?php print $cu->cu_phone; ?>
 							</div>
 							<div class="third">
 								<a href="<?php print $cu->cu_website; ?>" class="btn">Visit Website</a>

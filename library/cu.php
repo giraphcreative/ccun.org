@@ -57,7 +57,8 @@ function admin_credit_unions() {
 				<td><?php print $cu->cu_id; ?></td>
 				<td><strong><?php print $cu->cu_name; ?></strong><br>
 					<?php print $cu->cu_address; ?><br>
-					<?php print $cu->cu_city; ?>, <?php print $cu->cu_state; ?> <?php print $cu->cu_zip; ?></td>
+					<?php print $cu->cu_city; ?>, <?php print $cu->cu_state; ?> <?php print $cu->cu_zip; ?><br>
+					<?php print $cu->cu_phone; ?></td>
 				<!--<td><?php print $cu->cu_zips; ?></td>-->
 				<td><a href="<?php print $cu->cu_website; ?>" target="_blank">Website</a></td>
 			</tr>
@@ -77,6 +78,7 @@ function admin_credit_unions() {
 			<li>city</li>
 			<li>state</li>
 			<li>zipcode</li>
+			<li>phone</li>
 			<li>applicable zipcodes (all of the zipcodes for which that CU should show up)</li>
 			<li>website</li>
 		</ul>
